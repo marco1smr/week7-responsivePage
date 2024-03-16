@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    /*change image-container background image*/
+    /*change document's background colour*/
+    /*change document's text colour*/
+    /*do not forget about borders!*/
+
+    .container {
+        background-color: rgb(150, 150, 236);
+        color:rgb(133, 55, 68);
+        width: 100%;
+    }
+    
+
+    .navigation ul li {
+        border: 1px solid rgb(133, 55, 68);
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+    /*change image-container background image*/
+    /*change document's background colour*/
+    /*change document's text colour*/
+    /*do not forget about borders!*/
+
+    .container{
+        background-color: blanchedalmond;
+        color: rgb(17, 16, 16);
+    }
+
+    .image-container{
+        background-image: url('../img/profile2.jpg');
+    }
+
+    .navigation ul li{
+        border: 1px solid black;
+    }
+}
+
+
+@media (min-width: 1024px){
+        
+    /*change image-container background image*/
+    /*change document's background colour*/
+    /*change document's text colour*/
+    /*do not forget about borders!*/
+
+    .container{
+        background-color: rgb(233, 104, 126);
+        color: rgb(9, 51, 9);
+    }
+
+    .image-container{
+        background-image: url('../img/profile3.jpg');
+    }
+
+    .navigation ul li{
+        border: 1px solid rgb(9, 51, 9);
+    }
+}
+
+
+@media (min-width: 1200px){
+
+    /*change image-container background image*/
+    /*change document's background colour*/
+    /*change document's text colour*/
+    /*do not forget about borders!*/
+   
+   .container{
+    background-color: aliceblue;
+    color: rgb(45, 45, 192);
+   }
+
+   .image-container{
+    background-image: url('../img/profile4.jpg');
+   }
+
+   .navigation ul li{
+    border: 1px solid rgb(45, 45, 192);
+   }
+   
+   
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid black;
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
+
+
